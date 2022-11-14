@@ -9,4 +9,4 @@ def main(fruits,x):
     """
     fruits.append(x)
     return fruits
-print(main([1,2,3],1))
+print(main([1,2,3],2))
