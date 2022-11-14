@@ -6,4 +6,6 @@ def main(fruits):
     Returns:
         int: return answer
     """
-    return
+
+    return fruits.cound("apple")
+    
