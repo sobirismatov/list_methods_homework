@@ -6,4 +6,10 @@ def main(list01):
     Returns:
         int: return answer
     """
-    return
+    k=0
+    for i in list01:
+        if i==0:
+            k=list01.count(0)
+    return k
+
+print(main([1,0,1,0,0]))
