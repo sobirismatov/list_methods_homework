@@ -7,9 +7,10 @@ def main(fruits):
         list: return answer
     """
     i=0
+    k=0
     while i<len(fruits):
         if fruits[i]=="apple":
-            fruits.pop(i)
+            k=fruits.pop(i)
         i+=1
-    return fruits
+    return k
 print(main(["anor","apple","nok"]))
